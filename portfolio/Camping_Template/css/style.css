@@ -1,0 +1,237 @@
+@import url("fontawesome-all.min.css");
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  height: 100%;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  height: 100%;
+  background-color: rgba(133,167,10);
+  color: white;
+}
+
+h1{
+  font-size: 5rem;
+  color: rgba(133,167,10);
+}
+
+h2{
+  font-size: 2rem;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header section, main > section{
+  padding: 3.5em 2em;
+  height: auto;
+}
+
+header{
+  background: rgba(86,57,43);
+  color: #949494;
+}
+
+header div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header a{
+  font-size: 1.8rem;
+  color: #949494;
+  font-weight: lighter;
+}
+
+header .logo{
+  font-size: 2.5rem;
+  color: rgba(250,126,2);
+}
+
+.video{
+  font-size: 3.2rem;
+  vertical-align: middle;
+}
+
+main{
+  height: auto;
+}
+
+/*********************/
+/* FOOTER
+/********************/
+
+footer {
+  padding: 2.5em;
+	background: black;
+	color: white;
+  text-align: left;
+}
+
+footer .links, footer .contacts{
+  width: auto;
+}
+footer i{
+  font-size: 2rem;
+}
+footer ul, footer p{
+  padding: 0;
+  margin: 0;
+}
+
+footer p{
+  font-size: 1rem;
+  color: grey;
+  font-variant: small-caps;
+}
+
+footer h3{
+  margin-top: 0;
+}
+
+footer address{
+  font-style: normal;
+  font-weight: lighter;
+}
+
+footer ul li{
+	display: inline-block;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2rem
+}
+
+footer > section{
+	clear: both;
+}
+
+footer .links{
+	float: left;
+}
+
+footer .contacts{
+	float: right;
+  font-size: 1rem;
+}
+
+.footer{
+  padding-top: 1em;
+  margin-top: 1em;
+  border-top: 2px solid white;
+}
+
+.footer p{
+  float: left;
+  color: white;
+}
+
+.footer .logo{
+  float: right;
+  color: rgba(250,126,2);
+}
+/*********************/
+/* NAVIGATION
+/********************/
+nav{
+  padding: 1em;
+}
+
+nav a{
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav span{
+  display: inline-block;
+  text-align: right;
+  width: 20%;
+  float: right;
+}
+nav ul{
+  float: left;
+  text-align: left;
+  width: 20%;
+	padding: 0;
+  margin: 0;
+}
+
+nav .button{
+  background: #949494;
+  color: grey;
+  border-radius: 5px;
+  padding: 10px;
+  color: rgba(86,57,43);
+}
+
+nav li{
+	display: inline-block;
+  padding-right: 1em;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.description{
+  width: 50%;
+  margin: 0 auto;
+}
+
+main section a{
+  display: inline-block;
+	border: 1px solid white;
+  margin: 1.5em 0;
+	padding: .7em 0;
+  width: 12em;
+}
+
+.visits, .visits a{
+  color: #949494;
+  border-color: #949494
+}
+
+.visits{
+  background: rgba(86,57,43);
+}
+
+.visits section {
+  float: left;
+  width: 50%;
+}
+
+.visits section div{
+	margin: 0 auto;
+	height: 8em;
+	width: 70%;
+	background-color: rgba(133,167,10);
+}
